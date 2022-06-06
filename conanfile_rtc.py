@@ -8,8 +8,8 @@ class GSLConan(ConanFile):
     license = "https://github.com/Esri/gsl/blob/master/LICENSE"
     description = "Guidelines Support Library"
 
-    # RTC specific triple
-    settings = "platform_architecture_target"
+    # Use the OS default to get the right line endings
+    settings = "os"
 
     def package(self):
         base = self.source_folder + "/"
