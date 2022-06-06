@@ -9,7 +9,7 @@ class GSLConan(ConanFile):
     description = "Guidelines Support Library"
 
     # RTC specific triple
-    settings = "platform_architecture_target"
+    settings = "os"
 
     def package(self):
         base = self.source_folder + "/"
