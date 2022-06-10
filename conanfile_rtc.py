@@ -16,6 +16,6 @@ class GSLConan(ConanFile):
         relative = "3rdparty/gsl/"
 
         # headers
-        self.copy("*.h", src=base + "include/gsl", dst=relative + "include/gsl")
+        self.copy("*", src=base + "include/gsl", dst=relative + "include/gsl")
 
         # no libraries; header-only
