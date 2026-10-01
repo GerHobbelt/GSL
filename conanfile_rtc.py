@@ -2,7 +2,7 @@ from conans import ConanFile
 
 
 class GSLConan(ConanFile):
-    name = "gsl"
+    name = "ms-gsl"
     version = "4.0.0"
     url = "https://github.com/Esri/gsl"
     license = "https://github.com/Esri/gsl/blob/master/LICENSE"
